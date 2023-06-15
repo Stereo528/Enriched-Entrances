@@ -18,8 +18,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.stereo528.enriched_entrances.Example",
-			"client_init": "com.stereo528.enriched_entrances.ExampleClient",
+			"init": "com.stereo528.enriched_entrances.EnrichedEntrances",
+			"client_init": "com.stereo528.enriched_entrances.EnrichedEntrancesClient",
 			"modmenu": "com.stereo528.enriched_entrances.Config.ModMenuIntegration"
 		},
 		"depends": [
