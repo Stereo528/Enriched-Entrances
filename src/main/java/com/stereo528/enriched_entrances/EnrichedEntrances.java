@@ -12,5 +12,6 @@ public class EnrichedEntrances implements ModInitializer {
 	@Override
 	public void onInitialize(ModContainer mod) {
 		LOGGER.info("Hello world from {}!", mod.metadata().name());
+		Blocks.init();
 	}
 }
