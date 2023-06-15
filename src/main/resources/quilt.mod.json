@@ -2,7 +2,7 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "io.github.stereo528",
-		"id": "example",
+		"id": "enriched_entrances",
 		"version": "${version}",
 		"metadata": {
 			"name": "Example",
@@ -14,28 +14,32 @@
 				"issues": "https://github.com/Stereo528/quilt-template-mod/issues",
 				"sources": "https://github.com/Stereo528/quilt-template-mod"
 			},
-			"icon": "assets/example/icon.png"
+			"icon": "assets/enriched-entrances/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.stereo528.example.Example",
-			"client_init": "io.github.stereo528.example.ExampleClient",
-			"modmenu": "io.github.stereo528.example.Config.ModMenuIntegration"
+			"init": "com.stereo528.enriched_entrances.Example",
+			"client_init": "com.stereo528.enriched_entrances.ExampleClient",
+			"modmenu": "com.stereo528.enriched_entrances.Config.ModMenuIntegration"
 		},
 		"depends": [
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.17.0-"
+				"versions": ">=0.19.0-"
 			},
 			{
 				"id": "quilted_fabric_api",
-				"versions": ">=5.0.0-"
+				"versions": ">=7.0.0-"
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.19.3"
+				"versions": ">=1.20"
+			},
+			{
+				"id": "midnightlib",
+				"versions": ">=1.4.0-"
 			}
 		]
 	},
-	"mixin": "example.mixins.json"
+	"mixin": "enriched_entrances.mixins.json"
 }
