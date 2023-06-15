@@ -1,11 +1,11 @@
-package io.github.stereo528.example.Config;
+package com.stereo528.example.Config;
 
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 import eu.midnightdust.lib.config.MidnightConfig;
 
-import static io.github.stereo528.example.Example.MODID;
+import static com.stereo528.example.Example.MODID;
 
 public class ModMenuIntegration implements ModMenuApi {
 	@Override

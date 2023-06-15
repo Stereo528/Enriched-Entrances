@@ -1,4 +1,4 @@
-package io.github.stereo528.example;
+package com.stereo528.example;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;

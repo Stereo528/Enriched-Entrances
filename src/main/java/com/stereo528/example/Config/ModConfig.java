@@ -1,4 +1,4 @@
-package io.github.stereo528.example.Config;
+package com.stereo528.example.Config;
 
 import eu.midnightdust.lib.config.MidnightConfig;
 
